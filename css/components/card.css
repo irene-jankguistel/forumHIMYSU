@@ -1,0 +1,32 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-blue {
+	background: #A6A8CA;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    margin: 30px;
+    width: 700px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis:250px;
+    flex-grow: 1;
+}
+
+.card-blue h3 {
+	font-size: 20px;
+	color: #221D4A;
+	padding-left: 20px;
+	flex-grow: 1;
+}
+
+.card-blue img {
+	border-radius: 50%;
+	box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+	width:  150px;
+}
